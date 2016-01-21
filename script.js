@@ -5,7 +5,7 @@ function tripleFive(){
 }
 
 function lastLetter(string) {
-	return string[(string.length - 1)]
+	return string[(string.length-1)]
 }
 
 function square(number) {
@@ -56,3 +56,14 @@ function getSeconds(time) {
 	seconds += (((Number(time.substring(0, 2))) * 60) + Number(time.substring(3, 5)))
 	return seconds
 }
+
+tripleFive();
+//lastLetter();
+//square();
+//negate();
+//toArray();
+//startsWithA();
+//excite();
+//sun();
+//tiny();
+//getSeconds();
